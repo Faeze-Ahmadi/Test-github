@@ -20,3 +20,5 @@ def is_prime(n):
     return True
 
 print(is_prime(101))
+
+print("---------------------------------------")
