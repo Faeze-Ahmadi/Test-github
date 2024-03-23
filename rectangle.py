@@ -32,3 +32,7 @@ def is_prime(n):
         if n % i == 0:
             return False 
     return True
+
+def prime_numbers(m):
+    answer = []
+    for j in range(2, m + 1):
