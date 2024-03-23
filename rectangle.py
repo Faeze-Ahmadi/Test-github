@@ -39,3 +39,5 @@ def prime_numbers(m):
         if is_prime(j) == True:
             answer.append(j)
     return answer
+
+print(prime_numbers(20))
