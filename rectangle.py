@@ -17,4 +17,4 @@ def is_prime(n):
             return False 
     return True
 
-print(is_prime(1))
+print(is_prime(101))
