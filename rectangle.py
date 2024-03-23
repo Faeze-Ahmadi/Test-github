@@ -54,4 +54,6 @@ def grades(my_list: list)-> str:
     maximum = max(my_list)
     mean = round(sum(my_list) / len(my_list), 2)
     return f'Minimum: {minimum}\n Maximum: {maximum}\n Mean:{mean}'
+
+print(grades([12, 11.5, 14, 18, 20, 16, 15, 5, 19, 17, 75]))
     
