@@ -41,3 +41,13 @@ def prime_numbers(m):
     return answer
 
 print(prime_numbers(20))
+
+print("---------------------------------------")
+
+def grades(my_list: list)-> str:
+    """
+    his function calculates maximum, minimum
+    and mean value of the grades given 
+    in my_list
+    """
+    
