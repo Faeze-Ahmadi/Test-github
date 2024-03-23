@@ -36,3 +36,6 @@ def is_prime(n):
 def prime_numbers(m):
     answer = []
     for j in range(2, m + 1):
+        if is_prime(j) == True:
+            answer.append(j)
+    return answer
