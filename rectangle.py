@@ -8,3 +8,6 @@ def rectangle(a, b):
 print(rectangle(3,8))
 
 def is_prime(n):
+    if n == 1: 
+        return False
+    if n == 2:
