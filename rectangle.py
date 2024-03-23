@@ -6,3 +6,5 @@ def rectangle(a, b):
     return a * b, 2 * (a + b)
 
 print(rectangle(3,8))
+
+def is_prime(n):
