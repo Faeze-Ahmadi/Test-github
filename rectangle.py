@@ -52,4 +52,5 @@ def grades(my_list: list)-> str:
     """
     minimum = min(my_list)
     maximum = max(my_list)
+    mean = round(sum(my_list) / len(my_list), 2)
     
