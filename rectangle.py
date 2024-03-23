@@ -50,4 +50,6 @@ def grades(my_list: list)-> str:
     and mean value of the grades given 
     in my_list
     """
+    minimum = min(my_list)
+    maximum = max(my_list)
     
